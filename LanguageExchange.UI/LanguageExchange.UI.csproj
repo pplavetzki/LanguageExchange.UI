@@ -153,6 +153,7 @@
     <Content Include="client\public\app\stylesheets\smartadmin-rtl.css" />
     <Content Include="client\public\app\stylesheets\smartadmin-skins.css" />
     <Content Include="client\public\app\stylesheets\stylesheet.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="gulp.config.js" />
     <Content Include="gulpfile.js" />
