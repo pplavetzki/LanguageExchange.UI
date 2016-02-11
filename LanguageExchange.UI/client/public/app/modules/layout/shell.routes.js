@@ -13,7 +13,7 @@ function getStates() {
             abstract: true,
             views:{
                 root:{
-                    templateUrl: 'views/modules/layout/shell.html',
+                    templateUrl: 'client/build/app/views/modules/layout/shell.html',
                     controller: 'Shell',
                     controllerAs: 'vm',
                     title: 'Shell'

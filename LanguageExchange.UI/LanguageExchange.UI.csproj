@@ -81,6 +81,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="client\build\app\bundle.js" />
+    <Content Include="client\build\app\stylesheets\bootstrap.css" />
+    <Content Include="client\build\app\stylesheets\demo.css" />
+    <Content Include="client\build\app\stylesheets\font-awesome.css" />
+    <Content Include="client\build\app\stylesheets\invoice.css" />
+    <Content Include="client\build\app\stylesheets\lockscreen.css" />
+    <Content Include="client\build\app\stylesheets\smartadmin-production-plugins.css" />
+    <Content Include="client\build\app\stylesheets\smartadmin-production.css" />
+    <Content Include="client\build\app\stylesheets\smartadmin-rtl.css" />
+    <Content Include="client\build\app\stylesheets\smartadmin-skins.css" />
+    <Content Include="client\build\app\stylesheets\stylesheet.css" />
+    <Content Include="client\build\app\views\modules\auth\confirmation.html" />
+    <Content Include="client\build\app\views\modules\auth\login.html" />
+    <Content Include="client\build\app\views\modules\auth\reconfirmation.html" />
+    <Content Include="client\build\app\views\modules\auth\registration.html" />
+    <Content Include="client\build\app\views\modules\core\404.html" />
+    <Content Include="client\build\app\views\modules\dashboard\dashboard.html" />
+    <Content Include="client\build\app\views\modules\dashboard\greetings.html" />
+    <Content Include="client\build\app\views\modules\information\info.html" />
+    <Content Include="client\build\app\views\modules\layout\shell.html" />
+    <Content Include="client\build\app\views\modules\layout\top-navi.html" />
     <Content Include="client\public\app\favicon.ico" />
     <Content Include="client\public\app\fonts\fontawesome-webfont.svg" />
     <Content Include="client\public\app\fonts\fontawesome4.2\fontawesome-webfont.svg" />
@@ -135,6 +156,7 @@
     <Content Include="Global.asax" />
     <Content Include="gulp.config.js" />
     <Content Include="gulpfile.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -165,6 +187,9 @@
     <Content Include="client\public\app\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="client\public\app\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="client\public\app\stylesheets\bootstrap.css.map" />
+    <Content Include="client\build\app\data\countries.json" />
+    <Content Include="client\build\app\data\states.json" />
+    <Content Include="client\build\app\stylesheets\bootstrap.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

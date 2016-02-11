@@ -16,7 +16,7 @@ function getStates() {
                 url: '/login',
                 views: {
                     root: {
-                        templateUrl: 'views/modules/auth/login.html',
+                        templateUrl: 'client/build/app/views/modules/auth/login.html',
                         controller: 'Login',
                         controllerAs: 'vm',
                         title: 'Login'
@@ -29,7 +29,7 @@ function getStates() {
                 url: '/registration',
                 views: {
                     root: {
-                        templateUrl: 'views/modules/auth/registration.html',
+                        templateUrl: 'client/build/app/views/modules/auth/registration.html',
                         controller: 'Registration',
                         controllerAs: 'vm',
                         title: "Registration"
@@ -42,7 +42,7 @@ function getStates() {
                 url: '/confirm?userId&code',
                 views: {
                     root: {
-                        templateUrl: 'views/modules/auth/confirmation.html',
+                        templateUrl: 'client/build/app/views/modules/auth/confirmation.html',
                         controller: 'Confirmation',
                         controllerAs: 'vm',
                         title: "Confirmation"
@@ -55,7 +55,7 @@ function getStates() {
                 url: '/reconfirm?userName',
                 views: {
                     root: {
-                        templateUrl: 'views/modules/auth/reconfirmation.html',
+                        templateUrl: 'client/build/app/views/modules/auth/reconfirmation.html',
                         controller: 'Reconfirmation',
                         controllerAs: 'vm',
                         title: "Reconfirmation"

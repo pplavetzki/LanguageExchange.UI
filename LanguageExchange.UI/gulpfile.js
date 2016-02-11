@@ -80,7 +80,7 @@ gulp.task('views2', [], function(){
         .pipe(gulp.dest(config.viewsDest));
 });
 
-gulp.task('views', ['views1', 'views2'], function(){});
+gulp.task('views', ['views2'], function(){});
 
 gulp.task('asset1', [], function(){
     "use strict";

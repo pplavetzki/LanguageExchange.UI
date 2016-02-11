@@ -14,7 +14,7 @@ function getStates() {
             title: 'Dashboard',
             views:{
                 "content@app": {
-                    templateUrl: 'views/modules/dashboard/dashboard.html',
+                    templateUrl: 'client/build/app/views/modules/dashboard/dashboard.html',
                     controller: 'Dashboard',
                     controllerAs: 'vm'
                 }
@@ -26,7 +26,7 @@ function getStates() {
                 url: 'dashboard/greetings',
                 title: 'Greetings',
                 views: {
-                        templateUrl: 'views/modules/dashboard/greetings.html',
+                        templateUrl: 'client/build/app/views/modules/dashboard/greetings.html',
                         controller: 'Greetings',
                         controllerAs: 'vm'
                 }

@@ -13,7 +13,7 @@ function getStates() {
             url: '/404',
             views: {
                 root: {
-                    templateUrl: 'views/modules/core/404.html',
+                    templateUrl: 'client/build/app/views/modules/core/404.html',
                     title: '404'
                 }
             }

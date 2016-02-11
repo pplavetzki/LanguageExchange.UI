@@ -14,7 +14,7 @@ function getStates() {
                 title: 'Information',
                 views: {
                     "content@app": {
-                        templateUrl: 'views/modules/information/info.html',
+                        templateUrl: 'client/build/app/views/modules/information/info.html',
                         controller: 'Info',
                         controllerAs: 'vm'
                     }
